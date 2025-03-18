@@ -140,3 +140,10 @@ if not DEBUG:
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CORS_ALLOW_ALL_ORIGINS = True
+
+
+
+# import django_heroku
+# django_heroku.settings(locals())
+import django_heroku
+django_heroku.settings(locals())
